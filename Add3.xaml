@@ -1,0 +1,91 @@
+﻿<Window x:Class="Warehouse.Add3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Warehouse"
+        mc:Ignorable="d"
+        Title="Добавить" Height="277" Width="375">
+    <Grid Background="Black">
+        <Label Content="Название" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Label Content="Цена" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Label Content="Тип" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold" Width="58">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Label Content="Характеристики" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Button x:Name="BtnBack" Content="Назад" HorizontalAlignment="Left" Margin="267,194,0,0" VerticalAlignment="Top" Width="75" Click="BtnBack_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="BtnAdd" Content="Добавить" HorizontalAlignment="Left" Margin="10,194,0,0" VerticalAlignment="Top" Width="108" Click="BtnAdd_Click" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <TextBox x:Name="TB_Name" HorizontalAlignment="Left" Height="32" Margin="126,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Background="White" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <TextBox x:Name="TB_Price" HorizontalAlignment="Left" Height="32" Margin="79,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <TextBox x:Name="TB_Type" HorizontalAlignment="Left" Height="32" Margin="73,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <TextBox x:Name="TB_Spec" HorizontalAlignment="Left" Height="32" Margin="197,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontFamily="Comic Sans MS" FontSize="22" FontWeight="Bold">
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Cyan" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+    </Grid>
+</Window>
